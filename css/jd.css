@@ -2,11 +2,13 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-size:12px;
 }
 a {text-decoration:none; color:#666;}
 li {list-style:none;}
 .w {
 	margin:0 auto;
+	width:1214px;
 }
 /* 顶部样式 */
 .top {
@@ -19,8 +21,6 @@ li {list-style:none;}
 	line-height:30px;
 }
 .top-t-m {
-	width:1214px;
-	font-size: 12px;
 	color:#666;
 }
 .top-t-l {
@@ -32,7 +32,6 @@ li {list-style:none;}
 }
 select {
 	border:none;
-	font-size: 12px;
 	background:#f1f1f1;
 	color:#666;
 }
@@ -47,6 +46,7 @@ select {
 }
 .s3 {
 	margin:0 8px;
+	color:#666;
 }
 .sprite {
 	background:url(../img/sprite.png);
@@ -60,7 +60,39 @@ select {
 	background-color:#8a25c6;
 }
 .topbanner {
-	width:1214px;
 	height:80px;
 	background:url(../img/topbanner.jpg);
+}
+
+/* 底部样式 */
+.footer {
+	text-align:center;
+	height:136px;
+	border-top:1px solid #e5e5e5;
+	padding:27px 0 30px 0;
+}
+.footer-t {
+	width:770px;
+	height:20px;
+	padding-left:30px;
+}
+.footer-t li {
+	float:left;
+}
+.footer-m {
+	width:816px;
+	height:66px;
+	padding:13px 0;
+	font-size:12px;
+	color:#666;
+}
+.footer-b {
+	width:615px;
+	height:32px;
+}
+.mess {
+	width:103px;
+	height:32px;
+	float:left;
+	margin-right:4px;
 }
