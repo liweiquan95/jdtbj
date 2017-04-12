@@ -50,7 +50,7 @@ select {
 	color:red;
 }
 .s3 {
-	margin:0 6px;
+	margin:0 7px;
 }
 .sprite {
 	background:url(../img/sprite.png) no-repeat;
@@ -128,6 +128,22 @@ select {
 	margin-left:80px;
 	line-height:37px;
 	text-align:center;
+	position:relative;
+	background:url(../img/sprite.png) no-repeat;
+	background-position:8px -106px;
+}
+.search-box3 div {
+	font-size:12px;
+	width:15px;
+	height:15px;
+	text-align:center;
+	line-height:15px;
+	background:red;
+	color:#fff;
+	border-radius:30px 30px 30px 0;
+	position:absolute;
+	left:117px;
+	top:-3px;
 }
 .s-i1 {
 	background:url(../img/sprite.png) 0 48px;
@@ -155,10 +171,19 @@ select {
 	height:44px;
 	line-height:44px;
 	margin-left:20px;
+	position:relative;
 }
 .menu>a{
 	font-size:14px;
 	margin-right:40px;
+}
+.menu-i {
+	width:16px;
+	height:17px;
+	background:url(../img/new.jpg);
+	position:absolute;
+	left:430px;
+	top:0;
 }
 .bike {
 	float:right;
@@ -205,8 +230,7 @@ select {
 .content-r2 {
 	width:249px;
 	height:452px;
-	margin-left:10px;
-	border: 2px solid #e4e4e4;
+	margin-left:15px;
 	float:left;
 }
 .content-r2>p {
@@ -241,8 +265,9 @@ select {
 	color:#666;
 }
 .main-r-b {
-	width:249px;
+	width:248px;
 	height:240px;
+	position:relative;
 }
 .main-r-b .picture {
 	text-align:center;
@@ -270,6 +295,14 @@ select {
 	margin-top:10px;
 	line-height:20px;
 	font-size:12px;
+}
+.give {
+	width:10px;
+	height:15px;
+	position:absolute;
+	top:0;
+	left:236px;
+	background:url(../img/song.png);
 }
 .banner-b {
 	height:164px;
