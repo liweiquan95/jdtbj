@@ -8,9 +8,8 @@ a {text-decoration:none; color:#666;}
 li {list-style:none;}
 .w {
 	margin:0 auto;
-	width:1218px;
+	width:1214px;
 }
-
 /* 顶部样式 */
 .top {
 	height:110px;
@@ -110,37 +109,84 @@ select {
 	background-color:#b61d1d;
 	font-size:14px;
 }
+.search-box3 {
+	width:140px;
+	height:37px;
+	border:1px solid #dfdfdf;
+	float:left;
+	margin-left:80px;
+	line-height:37px;
+	text-align:center;
+}
+.s-i1 {
+	background:url(../img/sprite.png) 0 48px;
+	width:20px;
+	margin-left:20px;
+}
 .active {
 	color:#f00;
 }
 .nav-b {
 	height:44px;
-	background-color:blue;
+}
+.title {
+	width: 201px;
+	height: 44px;
+	float:left;
+	background-color:#b1191a;
+	font-size: 14px;
+	color:#fff;
+	line-height:44px;
+	padding-left:10px;
+}
+.menu {
+	float:left;
+	height:44px;
+	line-height:44px;
+	margin-left:20px;
+}
+.menu>a{
+	font-size:14px;
+	margin-right:40px;
 }
 .bike {
 	float:right;
 }
 /* 轮播图部分 */
 .banner {
+	border-top:2px solid #b1191a;
 	height: 638px;
 	background:url(../img/banner.jpg) no-repeat center center;
 }
 .banner-t {
 	height:468px;
 	margin-bottom:7px;
-	width:1214px;
 }
 .banner-t-l {
 	width:210px;
 	height:468px;
-	background:#0ff;
+	background:#c81623;
 	float:left;
+}
+.banner-t-l>ul {
+	padding:10px;
+}
+.banner-t-l>ul>li {
+	line-height:30px;
+	font-size:14px;
+}
+.banner-t-l>ul>li>a {
+	color:#fff;
+	font-size:14px;
+}
+.banner-t-l>ul>li>a>span {
+	float:right;
 }
 .banner-t-r {
 	width:996px;
-	height:454px;
+	height:452px;
 	background:#f0f;
-	margin-top:10px;
+	margin-top:12px;
 	float:right;
 }
 .slidebar {
@@ -153,7 +199,6 @@ select {
 	width:210px;
 	height:150px;
 	float:left;
-	
 }
 .subnav {
 	width:250px;
@@ -161,6 +206,7 @@ select {
 	float:left;
 	margin-right:1px;
 }
+/* 指南部分 */
 .guild {
 	width:100%;
 	height:94px;
@@ -174,6 +220,35 @@ select {
 	height:54px;
 	float:left;
 	margin:24px 80px 20px 0;
+}
+/* 购物样式 */
+.shop {
+	height:211px;
+	padding:24px 0 40px 0;
+}
+.shop1 {
+	margin-right:120px;
+	float:left;
+}
+.shop-h {
+	font-weight:normal;
+	font-size:16px;
+	color:#666;
+	margin-bottom:12px;
+}
+.shop1 ul li {
+	margin-bottom:10px;
+}
+.shop2 {
+	float:right;
+	width:209px;
+	background:url(../img/china.png) 0 -131px;
+	height:165px;
+	line-height:20px;
+	color:#666;
+}
+.shop2 span {
+	float:right;
 }
 /* 底部样式 */
 .footer {
