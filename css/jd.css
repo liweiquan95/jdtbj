@@ -194,7 +194,7 @@ a.active {
 .banner {
 	border-top:2px solid #b1191a;
 	height: 638px;
-	background:url(../img/banner.jpg) no-repeat center center;
+	background:url(../img/banner.jpg) no-repeat;
 }
 .banner-t {
 	height:468px;
@@ -396,9 +396,6 @@ a.active {
 .shop1 {
 	margin-right:120px;
 	float:left;
-}
-div.active {
-	margin-right:0;
 }
 .shop-h {
 	font-weight:normal;
