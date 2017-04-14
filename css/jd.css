@@ -173,18 +173,18 @@ a.active {
 	margin-left:20px;
 	position:relative;
 }
-.menu>a{
-	font-size:14px;
-	margin-right:40px;
-}
-.menu-i {
-	width:16px;
-	height:17px;
-	background:url(../img/new.jpg);
-	position:absolute;
-	top:0px;
-	left:427px;
+.menu li {
 	float:left;
+}
+.menu li a{
+	font-size:14px;
+	padding:0 20px;
+}
+.menu li:hover a {
+	color:#b1191a;
+}
+.menu .new {
+	background:url(../img/new.jpg) no-repeat right top;
 }
 .bike {
 	float:right;
